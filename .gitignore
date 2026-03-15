@@ -76,17 +76,6 @@ venv/
 # yarn.lock
 # Gemfile.lock
 
-# IDE 数据库文件
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/dictionaries
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/*.iws
-.idea/artifacts/
-.idea/libraries/
-
 # 其他常见的项目特定忽略
 *.bak
 *.orig
