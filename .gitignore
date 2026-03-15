@@ -1,0 +1,110 @@
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+*.swp
+*.swo
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 编辑器/IDE 配置文件
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# 依赖目录（通常通过包管理安装）
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+packages/
+*.gem
+
+# 编译输出文件
+/dist
+/build
+/out
+/target
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+*.egg
+*.o
+*.obj
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 测试覆盖率报告
+coverage/
+.nyc_output/
+*.lcov
+
+# 临时文件
+tmp/
+temp/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 环境配置文件（包含敏感信息）
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# 包管理器锁文件（通常应提交，但可根据策略选择）
+# package-lock.json
+# yarn.lock
+# Gemfile.lock
+
+# IDE 数据库文件
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/*.iws
+.idea/artifacts/
+.idea/libraries/
+
+# 其他常见的项目特定忽略
+*.bak
+*.orig
+*.pid
+*.seed
+*.pid.lock
+
+# 大文件（例如数据文件）
+*.sql
+*.sqlite
+*.db
+*.csv
+*.tsv
+*.xlsx
+
+# 聊天历史记录
+chat_history/
+
+# 向量数据库和MD5记录
+chroma_db/
+md5.text
